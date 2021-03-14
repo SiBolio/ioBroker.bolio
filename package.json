@@ -23,7 +23,7 @@
    "devDependencies":{
 
    },
-   "main":"main.js",
+   "main":"Gruntfile.js",
    "scripts":{
 
    },
