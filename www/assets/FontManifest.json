@@ -3,12 +3,16 @@
     "family": "MaterialIcons",
     "fonts": [
       {
-        "asset": "https://fonts.gstatic.com/s/materialicons/v42/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
+        "asset": "https://github.com/google/material-design-icons/blob/master/font/MaterialIcons-Regular.ttf"
       }
     ]
   },
   {
     "family": "packages/cupertino_icons/CupertinoIcons",
-    "fonts": [{ "asset": "packages/cupertino_icons/assets/CupertinoIcons.ttf" }]
+    "fonts": [
+      {
+        "asset": "https://github.com/flutter/cupertino_icons/blob/master/assets/CupertinoIcons.ttf"
+      }
+    ]
   }
 ]
