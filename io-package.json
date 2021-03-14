@@ -1,0 +1,67 @@
+{
+   "common":{
+      "name":"bolio",
+      "version":"0.0.1",
+      "news":{
+         "1.1.0":{
+            "en":"ioBroker adapter for bolio controllers",
+            "de":"ioBroker Adapter für bolio Controller"
+         }
+      },
+      "title":"bolio",
+      "titleLang":{
+         "en":"bolio ioBroker adapter",
+         "de":"bolio ioBroker Adapter"
+      },
+      "desc":{
+         "en":"Connects bolio by ACTIVE SEND protocoll",
+         "de":"Verbindet bolio über das ACTICE SEND Protokoll"
+      },
+      "authors":[
+         "Author <simonuber@gmail.com>"
+      ],
+      "keywords":[
+         "ioBroker",
+         "bolio"
+      ],
+      "license":"MIT",
+      "platform":"Javascript/Node.js",
+      "main":"main.js",
+      "icon":"bolio.png",
+      "enabled":true,
+      "extIcon":"https://raw.githubusercontent.com/DMXface/ioBroker.dmxface/master/admin/dmxface.png",
+      "readme":"https://github.com/DMXface/ioBroker.dmxface/blob/master/README.md",
+      "loglevel":"info",
+      "mode":"daemon",
+      "type":"general",
+      "compact":true,
+      "materialize":true,
+      "materializeTab":true,
+      "adminTab":{
+         "singleton":true,
+         "name":{
+            "en":"bolio",
+            "de":"bolio"
+         },
+         "fa-icon":"info"
+      },
+      "supportCustoms":true,
+      "dependencies":[
+         {
+            "js-controller":">=1.4.2"
+         }
+      ]
+   },
+   "native":{
+      "ipaddress":"0.0.0.0",
+      "port":"6000",
+      "requesttiming":"1000",
+      "lastdmxchannel":"0"
+   },
+   "objects":[
+
+   ],
+   "instanceObjects":[
+
+   ]
+}
