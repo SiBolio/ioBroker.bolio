@@ -28,12 +28,10 @@
       "platform":"Javascript/Node.js",
       "main":"main.js",
       "icon":"bolio.png",
-      "enabled":true,
       "extIcon":"https://github.com/SiBolio/ioBroker.bolio/blob/master/bolio.png",
       "readme":"https://github.com/SiBolio/ioBroker.bolio/blob/master/README.md",
       "loglevel":"info",
       "mode":"daemon",
-      "type":"general",
       "compact":true,
       "materialize":true,
       "materializeTab":true,
@@ -48,16 +46,17 @@
       "supportCustoms":true,
       "dependencies":[
          {
-            "js-controller":">=1.4.2"
+            "web": ">=1.5.4"
          }
-      ]
+      ], 
+      "localLink": "%web_protocol%://%ip%:%web_port%/bolio/index.html",
+      "enabled": true,
+      "onlyWWW": true,
+      "singleton": true,
+      "type": "visualization",
+      "noConfig": true
    },
-   "native":{
-      "ipaddress":"0.0.0.0",
-      "port":"6000",
-      "requesttiming":"1000",
-      "lastdmxchannel":"0"
-   },
+   "native": {},
    "objects":[
 
    ],
