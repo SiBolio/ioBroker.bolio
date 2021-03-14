@@ -31,7 +31,7 @@
       "extIcon":"https://github.com/SiBolio/ioBroker.bolio/blob/master/bolio.png",
       "readme":"https://github.com/SiBolio/ioBroker.bolio/blob/master/README.md",
       "loglevel":"info",
-      "mode":"daemon",
+      "mode":"none",
       "compact":true,
       "materialize":true,
       "materializeTab":true,
