@@ -14,8 +14,8 @@
          "de":"bolio ioBroker Adapter"
       },
       "desc":{
-         "en":"Connects bolio by ACTIVE SEND protocoll",
-         "de":"Verbindet bolio über das ACTICE SEND Protokoll"
+         "en":"Eine graphische Oberfläche für den ioBroker",
+         "de":"Eine graphische Oberfläche für den ioBroker"
       },
       "authors":[
          "Author <simonuber@gmail.com>"
